@@ -19,11 +19,11 @@
     </header>
 
     <main class="container p-0">
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-around">
             <section class="mt-4 col-md-6">
                 <div class="form-floating">
                     <textarea class="form-control" id="area" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Ingrese el texto aqui</label>
+                    <label for="floatingTextarea" class="text-secondary">Ingrese el texto aqui</label>
                 </div>
                 <div class="container fs-6 d-flex align-items-center gap-1 text-secondary">
                     <svg  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,14 +37,14 @@
                         </defs>
                         </svg>
                         
-                    <label for="icono" class="">Solo letras minusculas y sin acento.</label>
+                    <label for="icono" class="text-secondary">Solo letras minusculas y sin acento.</label>
                 </div>
                 <div class="-fluid d-flex justify-content-center gap-4 mt-5 w-100">
                     <button id="btn-encriptar" type="button" class="btn btn-primary btn-lg w-50">Encriptar</button>
                     <button id="btn-desencriptar" type="button" class="btn btn-secondary btn-lg w-50">Desencriptar</button>
                 </div>
             </section>
-            <section class="col-md-4 d-flex flex-column align-items-center ms-3 rounded-4 pe-2 py-2 shadow min-vh-75">
+            <section class="col-md-4 mt-sm-2 d-flex flex-column align-items-center ms-3 rounded-4 pe-2 py-2 shadow min-vh-75">
                 <img id="muñeco" src="Public/Muñeco.png" alt="Muñeco Buscando">
                 <div class="d-flex flex-column text-center w-75">
                     <h1 id="title-muñeco" class="fs-2">Ningún mensaje fue encontrado</h1>
